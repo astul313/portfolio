@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<!--
+    Massively by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>HR Attrition Dashboard by Asta Stulpiniene</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            .project-image {
+                width: 100%; /* Adjust the width as per your design */
+                height: auto; /* Maintain aspect ratio */
+            }
+            #intro {
+                padding-top: 2em; /* Adjust the padding to reduce space at the top */
+                padding-bottom: 2em;
+            }
+            .is-preload #intro {
+                transform: none !important; /* Ensure no extra space is added by transformations */
+                opacity: 1 !important;
+            }
+            .icon-button {
+                display: inline-block;
+                color: #fff;
+                background-color: #333; /* Default background color */
+                padding: 10px;
+                border-radius: 50%;
+                text-align: center;
+                width: 40px;
+                height: 40px;
+                line-height: 20px;
+            }
+            .icon-button.back {
+                background-color: #6c757d;
+            }
+            .icon-button:hover {
+                background-color: #555; /* Slightly darker for hover */
+            }
+            .icon-button.back:hover {
+                background-color: #5a6268;
+            }
+            #nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            #nav ul {
+                display: flex;
+                gap: 10px;
+            }
+        </style>
+    </head>
+    
+    <body class="is-preload">
+
+        <!-- Wrapper -->
+        <div id="wrapper" class="fade-in">
+
+            <!-- Intro -->
+            <div id="intro">
+                <h1>HR ATTRITION<br />
+                DASHBOARD</h1>
+                <p>using Power BI</p>
+                <ul class="actions">
+                    <li><a href="#main" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+                </ul>
+            </div>
+
+            <!-- Navigation -->
+            <nav id="nav">
+                <ul class="icons">
+                    <li><a href="index.html" class="icon-button back"><i class="fas fa-arrow-left"></i></a></li>
+                </ul>
+                <ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/asta-s-479698297/" target="_blank" rel="noopener" class="icon-button"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/astul313" target="_blank" rel="noopener" class="icon-button github"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </nav>
+
+            <!-- Main -->
+            <div id="main">
+                <section>
+                    <header class="major">
+                        <h2>Overview</h2>
+                        <p>Welcome to my HR Attrition Dashboard, created using Power BI and designed to provide comprehensive insights into employee attrition. This project, which is featured on my GitHub portfolio, addresses critical questions about employee turnover. The dashboard is structured into three main sections: Attrition Overview, Job Role Analysis, and Employee Insights, with an additional filters page for tailored data exploration.</p>
+                    </header>
+                    <article>
+                        <header>
+                            <h2>Data Source</h2>
+                        </header>
+                        <p>The data used for this project is sourced from Kaggle. This dataset provides insights into employee turnover, attrition rates by department, job role, and more. You can find the dataset <a href="https://www.kaggle.com/datasets/shengyaoye/wa-fn-usec-hr-employee-attrition" target="_blank">here</a>.</p>
+                    </article>
+
+                    <article>
+                        <header>
+                            <h2>How to Use</h2>
+                        </header>
+                        <p>1. Download the <a href="https://github.com/astul313/Asta-S_PowerBI_Dashboard/blob/main/Employee_Attrition_Dashboard%20(1).pbix" target="_blank">.pbix file from this repository</a>.<br>
+                           2. Open the file in Power BI Desktop.<br>
+                           3. Explore the different sections and use slicers to filter the data as needed.</p>
+                    </article>
+
+                    <article>
+                        <header>
+                            <h2>Sections and Key Questions Answered</h2>
+                        </header>
+                        <h3>1. Attrition Overview</h3>
+                        <p>This section provides a snapshot of the overall attrition landscape within the company. Key questions answered include:</p>
+                        <ul>
+                            <li>Total Employees: How many employees are currently in the organization?</li>
+                            <li>Total Attrition: How many employees have left the company?</li>
+                            <li>Average Age: What is the average age of employees?</li>
+                            <li>Average Years at Company: What is the average tenure of employees?</li>
+                            <li>Attrition by Years at Company: How does the attrition rate vary with the number of years employees have been with the company?</li>
+                            <li>Attrition by Job Satisfaction: How does job satisfaction impact attrition rates?</li>
+                            <li>Attrition Rate: What is the overall rate of employee turnover?</li>
+                            <li>Attrition by Department: Which departments experience the highest and lowest attrition rates?</li>
+                            <li>Female Attrition: What is the number and percentage of female employees who have left?</li>
+                            <li>Male Attrition: What is the number and percentage of male employees who have left?</li>
+                        </ul>
+                        <a href="#" class="image fit"><img src="images/Employee_Attrition_Dashboard1.jpg" alt="" /></a>
+
+                        <h3>2. Job Role Analysis</h3>
+                        <p>This section delves into attrition trends specific to job roles, helping identify patterns and areas for improvement. Key questions answered include:</p>
+                        <ul>
+                            <li>Attrition by Overtime vs. Regular Hours: How does working overtime versus regular hours affect attrition rates?</li>
+                            <li>Attrition by Role: Which job roles have the highest and lowest attrition rates?</li>
+                            <li>Attrition by Monthly Income: How does monthly income impact attrition rates?</li>
+                            <li>Attrition by Business Travel: How does the frequency of business travel correlate with attrition rates?</li>
+                        </ul>
+                        <a href="#" class="image fit"><img src="images/Employee_Attrition2.jpg" alt="" /></a>
+
+                        <h3>3. Employee Insights</h3>
+                        <p>This section offers a deeper understanding of employee demographics and their relation to attrition. Key questions answered include:</p>
+                        <ul>
+                            <li>Employee Age Range: What is the age distribution of employees?</li>
+                            <li>Attrition by Gender and Marital Status: How do gender and marital status influence attrition rates?</li>
+                            <li>Attrition Based on Average Tenure with Each Company: How does tenure with previous companies affect current attrition?</li>
+                            <li>Average Environment Satisfaction: How does satisfaction with the work environment impact attrition?</li>
+                            <li>Attrition Overview by Education: How do different education levels and fields influence attrition rates?</li>
+                        </ul>
+                        <a href="#" class="image fit"><img src="images/Employee_Attrition3.jpg" alt="" /></a>
+
+                        <h3>Filters Page</h3>
+                        <p>To facilitate tailored data analysis, the slicer page includes various filters that allow users to customize their view of the data. Key questions that can be explored include:</p>
+                        <ul>
+                            <li>Department: How does attrition vary across different departments?</li>
+                            <li>Job Role: How does attrition differ among various job roles?</li>
+                            <li>Education Field: What is the impact of different education fields on attrition?</li>
+                            <li>Education Level: How does the level of education influence attrition?</li>
+                            <li>Gender: How does attrition differ between male and female employees?</li>
+                            <li>Age Group: What are the attrition rates across different age groups?</li>
+                        </ul>
+                        <a href="#" class="image fit"><img src="images/Attrition_Filters.jpg" alt="" /></a>
+
+                        <h3>Conclusion</h3>
+                        <p>This Power BI dashboard provides an all-encompassing view of HR attrition, making it an invaluable tool for identifying trends, understanding underlying factors, and informing strategic decisions to improve employee retention.</p>
+                    </article>
+                </section>
+            </div>
+
+            <!-- Footer -->
+				<footer id="footer">
+					<section class="split contact">
+						<section>
+							<h3>Email</h3>
+							<p><a href="mailto:stulpiniene.asta@gmail.com">stulpiniene.asta@gmail.com</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://www.linkedin.com/in/asta-s-479698297/" class="icon brands alt fa-linkedin" target="_blank" rel="noopener"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/astul313" class="icon brands alt fa-github" target="_blank" rel="noopener"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+				
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Asta Stulpiniene</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

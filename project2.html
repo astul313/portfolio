@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<!--
+    Massively by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Automated Invoice Processing by Asta Stulpiniene</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            .project-image {
+                width: 100%; /* Adjust the width as per your design */
+                height: auto; /* Maintain aspect ratio */
+            }
+            #intro {
+                padding-top: 2em; /* Adjust the padding to reduce space at the top */
+                padding-bottom: 2em;
+            }
+            .is-preload #intro {
+                transform: none !important; /* Ensure no extra space is added by transformations */
+                opacity: 1 !important;
+            }
+            .icon-button {
+                display: inline-block;
+                color: #fff;
+                background-color: #333; /* Default background color */
+                padding: 10px;
+                border-radius: 50%;
+                text-align: center;
+                width: 40px;
+                height: 40px;
+                line-height: 20px;
+            }
+            .icon-button.back {
+                background-color: #6c757d;
+            }
+            .icon-button:hover {
+                background-color: #555; /* Slightly darker for hover */
+            }
+            .icon-button.back:hover {
+                background-color: #5a6268;
+            }
+            #nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            #nav ul {
+                display: flex;
+                gap: 10px;
+            }
+        </style>
+    </head>
+    
+    <body class="is-preload">
+
+        <!-- Wrapper -->
+        <div id="wrapper" class="fade-in">
+
+            <!-- Intro -->
+            <div id="intro">
+                <h1>Automated Invoice<br />
+                Processing and<br />
+                Email Solution</h1>
+                <p>using Python</p>
+            <ul class="actions">
+             <li><a href="#main" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+            </div>
+
+            <!-- Navigation -->
+            <nav id="nav">
+                <ul class="icons">
+                    <li><a href="index.html" class="icon-button back"><i class="fas fa-arrow-left"></i></a></li>
+                </ul>
+                <ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/asta-s-479698297/" target="_blank" rel="noopener" class="icon-button"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/astul313" target="_blank" rel="noopener" class="icon-button github"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </nav>
+
+            <!-- Main -->
+            <div id="main">
+                <section>
+                    <header class="major">
+                        <h2>Overview</h2>
+                        <p>This project involves the automation of invoice processing and email sending, using Python to streamline and enhance efficiency. This solution minimizes manual work and optimizes the entire process of handling and sending invoices.</p>
+                    </header>
+                    <header>
+                        <h2>Project steps</h2>
+                        </header>
+                    <article>
+                        <header>
+                            <h3>1. PDF File Processing</h3>
+                        </header>
+                        <p>Initially, a consolidated PDF file containing all invoices is split into individual PDF files. Each newly created PDF file is named according to its corresponding invoice number. This allows for more efficient management of individual invoices and prepares them for further processing.</p>
+                        <a href="#" class="image fit"><img src="images/split_pdf3.png" alt="" /></a>
+                    </article>
+
+                    <article>
+                        <header>
+                            <h3>2. Data Integration with API and Excel</h3>
+                        </header>
+                        <p>Using APIs, invoice data is imported into the Python environment. This data is then combined with additional information from an Excel file containing email addresses associated with names. The retrieved invoice data is processed by retaining necessary columns and merging them (based on invoice numbers). A new file is generated containing data such as client information, email addresses, and invoice numbers. This integrated file is used for further data processing.</p>
+                    </article>
+
+                    <article>
+                        <header>
+                            <h3>3. Invoice Grouping</h3>
+                        </header>
+                        <p>Invoices are automatically grouped by email addresses to avoid situations where multiple separate emails are sent to the same address. This optimization helps streamline the sending process and reduces the number of emails clients receive.</p>
+                        <a href="#" class="image fit"><img src="images/attachment_paruosimas.png" alt="" /></a>
+                    </article>
+
+                    <article>
+                        <header>
+                            <h3>4. Automated Invoice Sending</h3>
+                        </header>
+                        <p>Using a Gmail account and authentication with an application-specific password, the Python program connects to the email server. Data required for sending invoices is retrieved from the previously processed Excel file. Corresponding invoices are automatically sent to each client as attachments in email messages. The program tracks the number of successfully sent invoices and identifies clients for whom invoices could not be sent. This helps efficiently manage the sending process and quickly address any issues.</p>
+                    </article>
+
+                    <article>
+                        <header>
+                            <h3>Conclusion</h3>
+                        </header>
+                        <p>This solution significantly reduces the manual effort involved in invoice preparation and sending. The automated process not only saves time but also ensures greater accuracy and efficiency in invoice handling. Integration via API to merge data from accounting software with information stored in Excel files facilitates efficient data processing and management.</p>
+                    </article>
+                </section>
+            </div>
+
+            <!-- Footer -->
+				<footer id="footer">
+					<section class="split contact">
+						<section>
+							<h3>Email</h3>
+							<p><a href="mailto:stulpiniene.asta@gmail.com">stulpiniene.asta@gmail.com</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://www.linkedin.com/in/asta-s-479698297/" class="icon brands alt fa-linkedin" target="_blank" rel="noopener"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/astul313" class="icon brands alt fa-github" target="_blank" rel="noopener"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+				
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Asta Stulpiniene</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
